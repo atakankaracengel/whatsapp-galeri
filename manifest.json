@@ -1,0 +1,23 @@
+{
+  "action": { "default_popup": "popup.html" },
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://web.whatsapp.com/*"],
+    "run_at": "document_idle"
+  }],
+  "description": "WhatsApp sohbetlerinden ve gruplarından medya dosyalarını indirir. Sınırsız.",
+  "host_permissions": ["https://web.whatsapp.com/*"],
+  "icons": {
+    "16": "icons/16.png", "32": "icons/32.png",
+    "48": "icons/48.png", "128": "icons/128.png"
+  },
+  "manifest_version": 3,
+  "name": "WhatsApp Galeri",
+  "permissions": ["downloads", "activeTab", "scripting"],
+  "version": "1.0.0",
+  "web_accessible_resources": [{
+    "matches": ["https://web.whatsapp.com/*"],
+    "resources": ["inpage/vendor/wppconnect-wa-wrapped.js", "inpage/app.js", "assets/logo.svg"]
+  }]
+}
