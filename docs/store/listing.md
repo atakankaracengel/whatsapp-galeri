@@ -42,6 +42,7 @@ GİZLİLİK
 
 LİSANS: MIT — açık kaynak
 DESTEK: GitHub Issues
+**YAZAR**: Atakan Karaçengel
 ```
 
 **Kategori**: Üretkenlik (Productivity)
@@ -91,6 +92,7 @@ PRIVACY
 
 LICENSE: MIT — open source
 SUPPORT: GitHub Issues
+**AUTHOR**: Atakan Karaçengel
 ```
 
 **Category**: Productivity
