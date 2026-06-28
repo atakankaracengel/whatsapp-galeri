@@ -7,13 +7,6 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
-*.sublime-project
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Build artifacts
 dist/
@@ -24,14 +17,19 @@ build/
 
 # Env / secrets
 .env
-.env.local
 *.key
-*.pem
 
-# Node (flatpickr gibi eklenirse)
+# Node
 node_modules/
 package-lock.json
 yarn.lock
 
-# OS çöpü
-.Trashes
+# Generated store assets (PNG'ler — repo'da gereksiz, GitHub'a docs/ ile pushlanmaz)
+docs/store/*.png
+docs/store/*.jpg
+docs/store/*.jpeg
+docs/store/*.webp
+
+# Geçici dosyalar
+*.tmp
+*.bak
